@@ -1,12 +1,12 @@
 requirejs.config({
   paths: {
-    "amcharts": "/extensions/amCombo/library/amcharts",
-    "amcharts.serial": "/extensions/amCombo/library/serial",
-    "amcharts.theme.dark": "/extensions/amCombo/library/dark",
-    "amcharts.theme.black": "/extensions/amCombo/library/black",
-    "amcharts.theme.chalk": "/extensions/amCombo/library/light",
-    "amcharts.theme.light": "/extensions/amCombo/library/chalk",
-    //"amcharts.theme.patterns": "/extensions/amCombo/library/patterns"
+    "amcharts": "../extensions/amCombo/library/amcharts",
+    "amcharts.serial": "../extensions/amCombo/library/serial",
+    "amcharts.theme.dark": "../extensions/amCombo/library/dark",
+    "amcharts.theme.black": "../extensions/amCombo/library/black",
+    "amcharts.theme.chalk": "../extensions/amCombo/library/light",
+    "amcharts.theme.light": "../extensions/amCombo/library/chalk",
+    //"amcharts.theme.patterns": "../extensions/amCombo/library/patterns"
   },
   shim: {
     "amcharts.serial": {
